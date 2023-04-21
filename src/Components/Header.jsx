@@ -6,7 +6,6 @@ import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import '../styles/header.css'
 
 export const Header = () => {
   return (
@@ -21,21 +20,11 @@ export const Header = () => {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link href="#action1">Home</Nav.Link>
-            <Nav.Link href="#action2">Link</Nav.Link>
-            <NavDropdown title="Link" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action4">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action5">
-                Something else here
-              </NavDropdown.Item>
-            </NavDropdown>
-            <Nav.Link href="#" disabled>
-              Link
-            </Nav.Link>
+            <Nav.Link><Link className="text-decoration-none text-dark mx-3" to='/'>Home</Link></Nav.Link>
+            <Nav.Link><Link className="text-decoration-none text-dark mx-3" to='/Functions'>Funciones</Link></Nav.Link>
+            <Nav.Link><Link className="text-decoration-none text-dark mx-3" to='/Team'>Team</Link></Nav.Link>
+            <Nav.Link><Link className="text-decoration-none text-dark mx-3" to='/Team'>IA Software</Link></Nav.Link>
+            <Nav.Link className="text-decoration-none text-dark mx-5" href="https://idforideas.com" target={'_blank'}>ID for Ideas</Nav.Link>
           </Nav>
           <Form className="d-flex">
             <Form.Control
