@@ -6,10 +6,12 @@ export const Home = () => {
   return (
     <section>
       <Header />
-      <article className=" informacion ">
-        <h2>Informacion Destacada</h2>
+      <article className="informacion">
+        <h2>
+          Información <br /> Destacada
+        </h2>
         <h4>¿Que es la tecnologia?</h4>
-        <div id="texto e imagen">
+        <div id="textImg">
           <p>
             ¿Qué es la tecnología? La tecnología (del griego τέχνη téchnē,
             ‘arte’, ‘oficio’ y -λογία -loguía, ‘tratado’, ‘estudio’2​) es la
