@@ -5,10 +5,13 @@ footer {
   padding: 5%;
   background-color: #f7f7f9;
   & .info {
+    display: flex;
+    flex-direction: column;
     width: 25%;
+    gap: 2rem;
     & div {
-      display: flex;
       background-color: white;
+      display: flex;
     }
   }
 
