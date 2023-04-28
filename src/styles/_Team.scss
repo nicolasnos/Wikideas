@@ -1,0 +1,47 @@
+.team {
+  background-color: #4051e1;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+  & .title {
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+  }
+
+  & .members {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+
+    & .card {
+      height: 200px;
+      width: 300px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: transparent;
+      border-color: transparent;
+
+      & img {
+        height: 50%;
+      }
+
+      & .MInformation {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem;
+        width: 100%;
+        border-radius: 10px;
+        background-color: white;
+        color: #494f56;
+      }
+    }
+  }
+}

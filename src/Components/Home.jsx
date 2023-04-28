@@ -1,5 +1,6 @@
 import React from "react";
 import { Header } from "./Header";
+import { Footer } from "./Footer";
 import circuit from "../assets/AI.png";
 
 export const Home = () => {
@@ -56,6 +57,7 @@ export const Home = () => {
           continuo como beneficioso para la sociedad y la condición humana.
         </p>
       </article>
+      <Footer />
     </section>
   );
 };

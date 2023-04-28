@@ -1,0 +1,27 @@
+footer {
+  width: 100%;
+  display: flex;
+  gap: 10%;
+  padding: 5%;
+  background-color: #f7f7f9;
+  & .info {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    gap: 2rem;
+    & div {
+      background-color: white;
+      display: flex;
+    }
+  }
+
+  & .imagenes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    img {
+      width: 45%;
+    }
+  }
+}
