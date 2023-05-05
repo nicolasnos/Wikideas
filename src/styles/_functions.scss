@@ -16,8 +16,49 @@ body{
     font-size: 70px;
     padding-top: 10vh;
     letter-spacing: 3px;
+    margin-bottom: 10vh;
 }
 .span_color{
     color: #4051E1;
     font-family:'Paytone One', sans-serif;
+}
+.functions_e{
+    width: 100%;
+    max-width: 1800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+.card_f{
+   width: 330px;
+   height: 400px;
+   background-color: #ffffff;
+   border-radius: 20px;
+   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+   /*overflow: hidden;*/
+   margin: 20px;
+   text-align: center;
+   transition: all 0.25s;
+}
+.card_f:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.image_f{
+    width: 170px;
+    margin: 0 auto;
+}
+.subtitle_f{
+    font-size: 30px;
+    margin-top: 30px;
+    font-family:'Paytone One', sans-serif;
+    color: #4051E1;
+}
+p{
+    font-size: 25px;
+    margin: 20px 10px 0px 10px;
+    font-family: 'ABeeZee', sans-serif;
+    color: #494F56;
 }
