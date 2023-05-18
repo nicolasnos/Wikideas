@@ -1,0 +1,21 @@
+/*media query del computador*/
+@mixin computer {
+  @media screen and (min-width: 1024px) and (max-width: 1700px) {
+    /*contenido del css en el archivo directo*/
+    @content;
+  }
+}
+
+/*media query del tablet*/
+@mixin tablet {
+  @media screen and (min-width: 600px) and (max-width: 1000px) {
+    @content;
+  }
+}
+
+/*media query del celular*/
+@mixin mobile {
+  @media screen and (max-width: 576px) {
+    @content;
+  }
+}

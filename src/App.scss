@@ -1,5 +1,7 @@
+@import "./styles/_Queries.scss";
+
 @import url("../src/styles/_header.scss");
-@import url("../src/styles/_Home.scss");
+@import "../src/styles/_Home.scss";
 @import url("../src/styles/_functions.scss");
 @import "./styles/Footer";
 @import "./styles/_Team";
