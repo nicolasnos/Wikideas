@@ -1,14 +1,14 @@
 footer {
-  width: 100%; /* 
-  display: flex;
-  gap: 10%; */
+  width: 100%;
   flex-wrap: wrap;
   padding: 5%;
   background-color: #f7f7f9;
+  /*considero que solo es necesaria la media query del computador, sin embargo, lo dejo a evaluar*/
   @include computer {
     display: flex;
     gap: 10%;
   }
+
   & .info {
     display: flex;
     flex-direction: column;
@@ -33,6 +33,7 @@ footer {
     justify-content: space-around;
     align-items: center;
     width: 100%;
+    /*Querys*/
     @include computer {
       width: 60%;
     }
