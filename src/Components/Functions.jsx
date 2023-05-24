@@ -1,5 +1,6 @@
 import React from 'react'
 import { Header_Functions } from "./Header_Functions";
+import { Footer } from "./Footer";
 
 export const Functions = () => {
   return (
@@ -25,6 +26,7 @@ export const Functions = () => {
           </div>
         </div>
       </article>
+     <Footer/>
     </section>
   )
 }
