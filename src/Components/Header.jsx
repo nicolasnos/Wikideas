@@ -12,7 +12,7 @@ export const Header = () => {
     <div>
       <Navbar bg="light" expand="lg">
       <Container fluid>
-        <h1 className='wikideas' href="#">WIKIDEAS</h1>
+      <img className='icon' src="../public/favicon.ico" alt="" /><h1 className='wikideas' href="#">WIKIDEAS</h1>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
